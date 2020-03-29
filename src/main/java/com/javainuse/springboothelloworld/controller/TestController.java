@@ -12,9 +12,9 @@ public class TestController {
 	public ModelAndView firstPage() {
 		return new ModelAndView("welcome");
 	}
-	@RequestMapping("/abc")
+	@RequestMapping("/abcd")
 	public String firstPage1() {
-		return "<h1>Hello welcome</h1>";
+		return "<h1>Hello, Welcome To Spring Boot</h1>";
 	}
 
 
